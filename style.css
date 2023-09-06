@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'nightingale';
+    src: url(fonts/nightingale.ttf);
+}
+
+html {
+    background-color: blue;
+    color:yellow;
+    font-family: 'nightingale';
+}
+
+#name {
+    color:red;
+    float:right;
+    background-color: white;
+    top:0px;
+    right:0px;
+    position:absolute;
+
+}
+
+
+h1 {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+
+.quote1 {
+    line-height: 50pt;
+    position: relative;
+}
+
+.quote2 {
+    line-height: 50pt;
+    position: relative;
+}
+
+.quote3 {
+    line-height: 50pt;
+    position: relative;
+}
+
+#title {
+    color:white;
+    display: inline;
+    background-color: black;
+}
+
+#response1 {
+   display: none;
+}
+
+#response2 {
+    float: center;
+    display: none;
+ }
+
+ #response3 {
+    float: center;
+    display: none;
+ }
+
+ .quote1:hover {
+    background-color: black;
+ }
+
+.quote1:hover ~ #response1 {
+    display:inline;
+      font-size: 25px;
+      color:red;
+   
+    }
+.quote2:hover {
+    background-color:black;
+}
+
+.quote2:hover ~ #response2 {
+    display:inline;
+      font-size: 25px;
+      color:red;
+    }
+
+    .quote3:hover {
+        background-color:black;
+    }
+    
+    .quote3:hover ~ #response3 {
+        display:inline;
+          font-size: 25px;
+          color:red;
+        }
+
+.response {
+    padding:10px;
+    font-size: 25px;
+}
+
+a:visited {
+    color:white;
+}
+
+a {
+    color:red;
+    background-color: white;
+    position:absolute;
+    bottom:0px;
+    left:0px;
+}
